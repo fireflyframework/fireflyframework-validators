@@ -1,13 +1,13 @@
 # Firefly Common Validators
-A comprehensive library providing robust validators for banking and financial applications, part of the Firefly platform.
+A comprehensive library providing robust validators for enterprise and mission-critical applications, part of the Firefly platform.
 
 ## Overview
 
-The Firefly Banking Validators library provides a set of high-quality validation utilities specifically designed for financial applications. These validators ensure data integrity and compliance with international banking standards, helping you build robust and reliable financial software.
+The Firefly Validators library provides a set of high-quality validation utilities specifically designed for enterprise applications. These validators ensure data integrity and compliance with international standards, helping you build robust and reliable financial software.
 
 ## Features
 
-This library contains validators for the following banking and financial data formats:
+This library contains validators for the following enterprise data validation formats:
 
 - **IBAN Validator**: Validates International Bank Account Numbers according to ISO 13616 standard
 - **BIC Validator**: Validates Bank Identifier Codes (SWIFT codes) according to ISO 9362 standard
@@ -29,8 +29,8 @@ Add the following dependency to your Maven `pom.xml`:
 
 ```xml
 <dependency>
-    <groupId>com.firefly</groupId>
-    <artifactId>lib-common-validators</artifactId>
+    <groupId>org.fireflyframework</groupId>
+    <artifactId>fireflyframework-validators</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 </dependency>
 ```
@@ -38,7 +38,7 @@ Add the following dependency to your Maven `pom.xml`:
 For Gradle projects, add:
 
 ```groovy
-implementation 'com.firefly:lib-common-validators:1.0.0-SNAPSHOT'
+implementation 'org.fireflyframework:fireflyframework-validators:1.0.0-SNAPSHOT'
 ```
 
 ## Usage
@@ -196,7 +196,7 @@ This library is designed to comply with the following international standards:
 - **ISO 9362**: Business Identifier Code (BIC)
 - **ISO/IEC 7812**: Identification cards - Identification of issuers
 - **ISO 4217**: Currency codes
-- **UK Banking Standards**: Sort codes and account numbers
+- **UK Financial Standards**: Sort codes and account numbers
 
 ## Dependencies
 
@@ -206,7 +206,7 @@ This library is designed to comply with the following international standards:
 
 ## Contributing
 
-Contributions to the Firefly Banking Validators library are welcome! Please follow these steps:
+Contributions to the Firefly Validators library are welcome! Please follow these steps:
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
