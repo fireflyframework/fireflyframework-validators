@@ -1,4 +1,6 @@
 # Firefly Common Validators
+
+[![CI](https://github.com/fireflyframework/fireflyframework-validators/actions/workflows/ci.yml/badge.svg)](https://github.com/fireflyframework/fireflyframework-validators/actions/workflows/ci.yml)
 A comprehensive library providing robust validators for enterprise and mission-critical applications, part of the Firefly platform.
 
 ## Overview
