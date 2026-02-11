@@ -57,7 +57,7 @@ Each validator is implemented as a custom constraint annotation paired with a `C
 <dependency>
     <groupId>org.fireflyframework</groupId>
     <artifactId>fireflyframework-validators</artifactId>
-    <version>26.01.01</version>
+    <version>26.02.01</version>
 </dependency>
 ```
 
